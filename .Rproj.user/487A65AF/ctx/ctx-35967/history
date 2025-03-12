@@ -1,0 +1,104 @@
+install.packages("haven")
+library(haven)
+IDH2021<-read_sav("IDH_2021_AL.sav")
+head(IDH2021)
+View(IDH2021)
+```
+1+1
+2*2
+3>4
+100 == 200
+400 > 399
+N<- 1,3, 5, 6
+N<- c(1,3, 5, 6)
+estaturas <- c(1.85, 1.63, 1.75, 1.57)
+nombres <- c("Ana", "Alejandro", "Andrés", "María")
+tomacocacola <- c(T, F, T, T)
+bbdd <- data.frame (nombres, estaturas, tomacocacola)
+View(bbdd)
+print(bbdd)
+install.packages("haven")
+install.packages("haven")
+library(haven)
+casas <- c("casa1", "casa2", "casa3", "casa4")
+ingresos <- c(30, 70, 50, 300)
+npersonas<- c(3, 4, 2, 3)
+base <- data.frame(casas, ingresos, npersonas)
+print(base)
+base
+npersonas<- c(3, 4, 2)
+base <- data.frame(casas, ingresos, npersonas)
+npersonas<- c(3, 4, 2, 3)
+base <- data.frame(casas, ingresos, npersonas)
+# Establecer el espejo de CRAN
+options(repos = c(CRAN = "https://cran.rstudio.com/"))
+lapop <- read_sav("LAPOP 2023.sav")
+View(lapop)
+lapop <- read_sav("LAPOP 2023.sav")
+head(lapop)
+lapop2 <- select (lapop$q2, lapop$l1)
+install.packages("dplyr") #Instalo la libreria
+library(dplyr) #llamo a la libreria
+lapop2 <- select (lapop$q2, lapop$l1)
+lapop2 <- select(lapop$q2, lapop$l1)
+library(dplyr) #llamo a la libreria
+install.packages("tidyverse") #Instalo la libreria
+install.packages("tidyverse")
+library(tidyverse) #llamo a la libreria
+install.packages("vctrs")
+install.packages("vctrs")
+library(vctrs)
+library(dplyr) #llamo a la libreria
+library(tidyverse) #llamo a la libreria
+lapop2 <- select(lapop$q2, lapop$l1)
+?select
+library(tidyverse) #llamo a la libreria
+install.packages("tidyverse") #Instalo la libreria
+install.packages("tidyverse")
+library(tidyverse) #llamo a la libreria
+lapop2 <- select(lapop$q2, lapop$l1)
+install.packages("dplyr") #Instalo la libreria
+library(dplyr) #llamo a la libreria
+install.packages("vctrs")
+# Establecer el espejo de CRAN
+options(repos = c(CRAN = "https://cran.rstudio.com/"))
+install.packages("dplyr") #Instalo la libreria
+install.packages("dplyr") #Instalo la libreria
+library(dplyr) #llamo a la libreria
+lapop2 <- select(lapop$q2, lapop$l1)
+lapop2<-subset(lapop, select = c(q2, l1))
+View(lapop2)
+idh<- read_sav("IDH_2021_AL.sav")
+library(haven)
+idh<- read_sav("IDH_2021_AL.sav")
+View(idh)
+?subset
+head(lapop2)
+head(lapop2)
+library(tidyverse)
+lapop <- read_sav("LAPOP 2023.sav")
+lapop2<-lapop %>% select(q2, l1)
+head(lapop2)
+# Instalar el paquete 'tinytex' que permite gestionar la instalación de LaTeX
+install.packages("tinytex")
+install.packages("tinytex")
+# Instalar TinyTeX (una distribución ligera de LaTeX)
+tinytex::install_tinytex()
+install.packages("xfun")
+install.packages("xfun")
+# Instalar TinyTeX (una distribución ligera de LaTeX)
+tinytex::install_tinytex()
+# Instalar el paquete 'tinytex' que permite gestionar la instalación de LaTeX
+install.packages("tinytex")
+install.packages("tinytex")
+# Instalar TinyTeX (una distribución ligera de LaTeX)
+tinytex::install_tinytex()
+# Instalar el paquete 'tinytex' que permite gestionar la instalación de LaTeX
+install.packages("tinytex")
+install.packages("xfun")
+# Instalar TinyTeX (una distribución ligera de LaTeX)
+tinytex::install_tinytex()
+install.packages("xfun")
+quarto render Ayudantia1.qmd --to pdf
+tinytex::install_tinytex()
+install.packages("xfun")

@@ -1,0 +1,32 @@
+{
+    "id": "24EA8F3B",
+    "path": "C:/Users/choco/Desktop/Test/ayudantia1.Rmd",
+    "project_path": "ayudantia1.Rmd",
+    "type": "r_markdown",
+    "hash": "489488577",
+    "contents": "",
+    "dirty": false,
+    "created": 1741721481016.0,
+    "source_on_save": false,
+    "relative_order": 10,
+    "properties": {
+        "tempName": "Untitled2",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "195,0",
+        "scrollLine": "0",
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualModeLocation": "2:0",
+        "rmdVisualCollapsedChunks": ""
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1741722332,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1741722332,
+    "read_only": false,
+    "read_only_alternatives": []
+}

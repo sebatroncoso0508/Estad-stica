@@ -1,0 +1,46 @@
+casas <- c("casa1", "casa2", "casa3", "casa4")
+
+ingresos <- c(30, 70, 50, 300)
+
+npersonas<- c(3, 4, 2, 3)
+
+base <- data.frame(casas, ingresos, npersonas)
+              
+print(base)
+base
+
+install.packages("vctrs")
+library(vctrs)
+?select
+library(haven)
+idh<- read_sav("IDH_2021_AL.sav")
+head(lapop2)
+
+library(tidyverse)
+
+
+# Instalar el paquete 'tinytex' que permite gestionar la instalación de LaTeX
+install.packages("tinytex")
+
+install.packages("xfun")
+# Instalar TinyTeX (una distribución ligera de LaTeX)
+tinytex::install_tinytex()
+
+# Instalar el paquete 'caption' que podría ser necesario para compilar documentos
+tinytex::tlmgr_install("caption")
+
+# Verificar que TinyTeX está correctamente instalado
+tinytex::tinytex_root()
+
+
+install.packages("xfun")
+.rs.restartR()
+packageVersion("xfun")
+tinytex::install_tinytex()
+quarto render Ayudantia1.qmd --to pdf
+
+
+install.packages("quarto")
+library(quarto)
+getwd()
+system("quarto render Ayudantia1.qmd --to pdf")
