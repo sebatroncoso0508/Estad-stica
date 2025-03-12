@@ -1,0 +1,55 @@
+---
+title: "Ayudantia1Est2"
+author: "STZ"
+date: "2025-03-09"
+output:
+  html_document:
+    toc: yes
+    number_sections: yes
+    df_print: paged
+  pdf_document:
+    toc: yes
+---
+
+```{=html}
+<style>
+  .page-break {
+    page-break-after: always; /* Para impresión */
+    display: block; /* Para HTML */
+    margin: 2em 0; /* Espaciado */
+  }
+</style>
+```
+
+```{r setup, include=FALSE}
+setwd("C:/Users/choco/Desktop/Directorio para tarea")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Contenidos Ayudantía
+
+•Las ayudantías serán semanales y con asistencia.
+
+•Tendrán un enfoque al resfuerzo práctico de los contenidos de clases.
+
+•Habrán evaluaciones en las ayudantías, estas serán faciles y la idea es que puedan reforzar lo visto en clases
+
+Fechas:
+
+-   Control AyudaLab 1: 27/03/2025
+
+-   Control AyudaLab 2: 17/04/2025
+
+-   Control AyudaLab 3: 22/05/2025
+
+-   Control AyudaLab 4: 05/06/2025
+
+-   Control AyudaLab 5: 03/07/2025
+
+•Finalmente, la idea es desarrollar un Libro R que contenga los principales códigos que vayamos utilizando.
+
+## Objetivos de hoy
+
+•La idea de esta primera ayudantía es repasar lo principal de Rstudio, con la finalidad de estar listxs para las primeras clases y talleres del curso.
+
+•Igualmente es crucial que vayan expresando los distintos elementos que les gustaría repasar y reforzar, con tal de hacer esta instancia para ustedes.
