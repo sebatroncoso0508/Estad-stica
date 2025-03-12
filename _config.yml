@@ -1,0 +1,7 @@
+# Archivo de configuración de GitHub Pages
+
+# Nombre del tema (puedes cambiarlo si deseas usar un tema diferente)
+theme: minima
+
+# URL base (asegúrate de que sea correcta)
+baseurl: "/Estad-stica"
