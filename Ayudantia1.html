@@ -404,53 +404,60 @@ Equipo Estadística 2
 </section>
 <section id="ayudantías" class="slide level2 center">
 <h2>Ayudantías</h2>
-<p>-Las ayudantías serán semanales y con asistencia.</p>
+<p>-Las ayudantías serán semanales y con asistencia obligatora.</p>
 <p>-Tendrán un enfoque en el refuerzo práctico de los contenidos de clase.</p>
 <p>-Habrá controles en las ayudantías; estos no serán complejos y la idea es que puedan reforzar lo visto en clase.</p>
 </section>
-<section id="fechas" class="slide level2 center">
-<h2>Fechas</h2>
+<section id="fechas-controles-15-nota-presentación" class="slide level2 center">
+<h2>Fechas Controles (15% Nota Presentación)</h2>
 <p>-Control AyudaLab 1: 27/03/2025</p>
 <p>-Control AyudaLab 2: 17/04/2025</p>
 <p>-Control AyudaLab 3: 22/05/2025</p>
 <p>-Control AyudaLab 4: 05/06/2025</p>
 <p>-Control AyudaLab 5: 03/07/2025</p>
-<p><strong>Finalmente, la idea es que a lo largo de las ayudantías del curso, podamos desarrollar un Libro R que sirva de repositorio de los principales códigos utilizados.</strong></p>
+</section>
+<section id="libro-r" class="slide level2 center">
+<h2>Libro R</h2>
+<p>En la práctica como sociólogxs, pocas personas se aprenden los códigos de R de memoria, por lo mismo, desarrollaremos un Libro R.</p>
+<p>Este material servirá de repositorio para los principales códigos que utilicemos en el curso, con el fin de que les sirva de apoyo para evaluaciones y sus futuros proyectos estadísticos.</p>
+<p>Este va a ser publicado por nosotrxs como equipo, pero será completado con la colaboración de ustedes.</p>
 </section>
 <section id="contenidos-ayudantía-1" class="slide level2 center">
 <h2>Contenidos Ayudantía 1</h2>
-<p>-Esta primera ayudantía tiene la finalidad de repasar los elementos centrales de R, para eso veremos lo siguiente:</p>
+<p>Esta primera ayudantía tiene la finalidad de repasar los elementos básicos de R, con tal de estar listxs para empezar a analizar datos la próxima semana. Los contenidos de este material serán:</p>
 <ol type="1">
 <li>Qué es R y RStudio</li>
 <li>Interfaz RStudio</li>
 <li>Funciones básicas</li>
-<li>Vectores y bbdd</li>
-<li>Trabajo en R</li>
+<li>Vectores y creación de bases de datos</li>
+<li>Rproject</li>
 <li>Paquetes</li>
-<li>BBDD</li>
+<li>Apertura de bases de datos</li>
 </ol>
 </section>
 <section id="r-y-rstudio" class="slide level2 center">
-<h2>R y Rstudio</h2>
-<p>-Existen múltiples programas para el análisis estadístico, siendo los más populares STATA, SPSS y R. R se ha vuelto el software más utilizado en los últimos años, debido a su accesibilidad gratuita, su potencia en análisis/presentación de información y su versatilidad por ser de código abierto. (Eso y muchas otras razones)</p>
-<p>-R es el programa/lenguaje de programación y Rstudio es un entorno que actúa como interfaz para hacer más amigable la utilización y navegación por R.</p>
-<p>-Si bien el programa se utiliza en mayor medida para análisis estadístico, también tiene gran potencialidad en análisis cualitativos, presentación de información, entre muchas otras funciones.</p>
+<h2>R y RStudio</h2>
+<p>Existen múltiples programas para el análisis estadístico, siendo los más populares STATA, SPSS y R. R se ha vuelto el software más utilizado en los últimos años, debido a su accesibilidad gratuita, su potencia en análisis/presentación de información y su versatilidad por ser de código abierto. (Eso y muchas otras razones)</p>
+<p>R es el programa/lenguaje de programación y Rstudio es un entorno que actúa como interfaz para hacer más amigable la utilización y navegación por R.</p>
+<p>Si bien el programa se utiliza en mayor medida para análisis estadístico, también tiene gran potencialidad en análisis cualitativos de textos, presentación de información (como esta misma presentación), entre muchas otras funciones.</p>
 </section>
 <section id="r-y-rstudio-1" class="slide level2 center">
-<h2>R y Rstudio</h2>
-
-<img data-src="GrafR.png" width="540" class="r-stretch"></section>
+<h2>R y RStudio</h2>
+<p>Todos estos gráficos fueron generados con R. La librería más popular para estas tareas es ggplot y la utilizaremos más adelante en el curso. <img data-src="GrafR.png" class="quarto-figure quarto-figure-center" width="587"></p>
+</section>
 <section id="r-y-rstudio-2" class="slide level2 center">
-<h2>R y Rstudio</h2>
+<h2>R y RStudio</h2>
+<p>Esto es arte generativo hecho con R. No tiene nada que ver con el curso y nada más fue puesto aquí para mostrarles la versatilidad del programa.</p>
 
-<img data-src="ArteR.png" width="291" class="r-stretch"></section>
+<img data-src="ArteR.png" class="quarto-figure quarto-figure-center r-stretch" width="249"></section>
 <section id="rstudio" class="slide level2 center">
-<h2>Rstudio</h2>
+<h2>RStudio</h2>
+<p>Estos son los cuatro elementos principales en la interfaz de Rstudio. Conocerlos es crucial, ya que, interactuaremos con ellos constantemente.</p>
 
-<img data-src="Presentación%20Proyecto%20libreta%20Creativo%20Doodle%20Rosa.jpg" class="r-stretch"></section>
+<img data-src="Presentación%20Proyecto%20libreta%20Creativo%20Doodle%20Rosa.jpg" class="quarto-figure quarto-figure-center r-stretch" width="617"></section>
 <section id="funciones-básicas-en-r" class="slide level2 center">
 <h2>Funciones básicas en R</h2>
-<p>-Como bien recordarán, podemos utilizar R para realizar operaciones básicas:</p>
+<p>Como bien recordarán, podemos utilizar R para realizar operaciones básicas como si fuera una calculadora:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="dv">300</span><span class="sc">+</span><span class="dv">200</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -469,7 +476,7 @@ Equipo Estadística 2
 <pre><code>[1] 5</code></pre>
 </div>
 </div>
-<p>-También nos permite establecer comparaciones entre valores:</p>
+<p>También nos permite establecer comparaciones lógicas entre valores, indicando TRUE (verdadero) o FALSE (falso) según lo que estemos comparando:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href=""></a><span class="dv">100</span> <span class="sc">==</span> <span class="dv">200</span> <span class="co"># "==" Esto significa igual a</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -483,7 +490,7 @@ Equipo Estadística 2
 </section>
 <section id="funciones-básicas-en-r-1" class="slide level2 center">
 <h2>Funciones básicas en R</h2>
-<p>-Además de la adición, sustracción, multiplicación y división, estas son otras funciones básicas en R</p>
+<p>Además de la adición, sustracción, multiplicación y división, estas son otras funciones básicas en R</p>
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -518,11 +525,11 @@ Equipo Estadística 2
 </tr>
 </tbody>
 </table>
-<p>-Estas se vuelven importantes cuando queramos recodificar y filtrar variables.</p>
+<p><strong>Estas se vuelven importantes cuando queramos recodificar y filtrar variables.</strong></p>
 </section>
 <section id="vectores" class="slide level2 center">
 <h2>Vectores</h2>
-<p>-Los vectores son conjuntos de datos del mismo tipo, aplicado a las ciencias sociales estos serían variables. Podemos destacar 3 tipos de vectores más relevantes:</p>
+<p>Los vectores son conjuntos de datos del mismo tipo, aplicado a las ciencias sociales estos serían variables. Podemos destacar 3 tipos de vectores más relevantes:</p>
 <ol type="1">
 <li><p>Numéricos: valores numéricos, incluye decimales.</p></li>
 <li><p>Carácter: valores alfanuméricos, es decir, letras, números y signos mezclados.</p></li>
@@ -531,27 +538,28 @@ Equipo Estadística 2
 </section>
 <section id="vectores-1" class="slide level2 center">
 <h2>Vectores</h2>
-<p>-Para la creación de vectores se debe utilizar la función concatenar.</p>
-<p>-En el caso de vectores numéricos, los números decimales se deben escribir con un “.”, ya que, la coma (“,”) es la que indica separación de valores.</p>
+<p>Para la creación de vectores en R, se utiliza la función <strong>c()</strong> que significa concatenar o combinar. Esta función permite unir una serie de elementos de un mismo tipo.</p>
+<p>En el caso de vectores numéricos, los números decimales se deben escribir con un punto (“.”), ya que, la coma (“,”) es la que indica separación de valores dentro de una lista. Utilizar errónamente estos signos es un problema muy común en la ejecución de códigos, así que harto cuidado al utilizar estas puntuaciones.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href=""></a>estaturas <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">1.85</span>, <span class="fl">1.63</span>, <span class="fl">1.75</span>, <span class="fl">1.57</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>-En los vectores de carácter, las palabras deben ir entre comillas (““)</p>
+<p>En los vectores de carácter, las palabras deben ir entre comillas (““)</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href=""></a>nombres <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Ana"</span>, <span class="st">"Alejandro"</span>, <span class="st">"Andrés"</span>, <span class="st">"María"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>-En los vectores lógicos se utiliza TRUE (T) y FALSE (F). Tanto las palabras, como la letra funcionan, en cualquier caso, deben ir en mayúscula.</p>
+<p>En los vectores lógicos se utiliza TRUE (T) y FALSE (F). Tanto las palabras, como la letra funcionan, en cualquier caso, deben ir en mayúscula.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href=""></a>mayorde18 <span class="ot">&lt;-</span> <span class="fu">c</span>(T, F, T, T)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="base-de-datos" class="slide level2 center">
 <h2>Base de datos</h2>
-<p>-Ya habiendo creado vectores, los podemos combinar para crear una base de datos.</p>
+<p>Ya habiendo creado vectores, los podemos combinar para crear una base de datos.</p>
+<p>En la combinación de estos, es muy importante que todos los vectores tengan la misma cantidad valores, en el caso de que no se cumpla esa condición, aparecerá un error en la consola.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href=""></a>bbdd <span class="ot">&lt;-</span> <span class="fu">data.frame</span> (nombres, estaturas, mayorde18)</span>
 <span id="cb16-2"><a href=""></a></span>
-<span id="cb16-3"><a href=""></a><span class="fu">print</span>(bbdd)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-3"><a href=""></a><span class="fu">print</span>(bbdd) <span class="co">#Este comando sirve para imprimir y visualizar elementos cargados en nuestro entorno.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>    nombres estaturas mayorde18
 1       Ana      1.85      TRUE
@@ -563,28 +571,50 @@ Equipo Estadística 2
 </section>
 <section id="ejercicio-1" class="slide level2 center">
 <h2>Ejercicio 1</h2>
-<p>-Hacer una base de datos que contenga los siguientes vectores:</p>
-<p>-casas: Casa1, Casa2, Casa3, Casa4</p>
-<p>-ingresos: 30, 70, 50, 300</p>
-<p>-npersonas: 3, 4, 2, 3</p>
-<p><strong>Al crear la base de datos, es fundamental que todas las variables contengan la misma cantidad de datos.</strong></p>
+<p>Hacer una base de datos que contenga los siguientes vectores:</p>
+<p>-Casas: casa1, casa2, casa3, casa4</p>
+<p>-Ingreso Promedio del hogar: 30.5, 70, 54.4, 300</p>
+<p>-Número de personas en el hogar: 3, 4, 2, 3</p>
+<p>Finalmente imprima y observe la base de datos</p>
+<p><strong>Recordar revisar puntuación y que la cantidad de valores entre vectores coincida.</strong></p>
+</section>
+<section id="ejercicio-1-resuelto" class="slide level2 center">
+<h2>Ejercicio 1 Resuelto</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href=""></a>casas <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"casa1"</span>,<span class="st">"casa2"</span>,<span class="st">"casa3"</span>,<span class="st">"casa4"</span>)</span>
+<span id="cb18-2"><a href=""></a></span>
+<span id="cb18-3"><a href=""></a>iph <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fl">30.5</span>, <span class="dv">70</span>, <span class="fl">54.4</span>, <span class="dv">300</span>)</span>
+<span id="cb18-4"><a href=""></a></span>
+<span id="cb18-5"><a href=""></a>nperh <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
+<span id="cb18-6"><a href=""></a></span>
+<span id="cb18-7"><a href=""></a>basecasas <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(casas, iph, nperh)</span>
+<span id="cb18-8"><a href=""></a></span>
+<span id="cb18-9"><a href=""></a><span class="fu">print</span>(basecasas)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  casas   iph nperh
+1 casa1  30.5     3
+2 casa2  70.0     4
+3 casa3  54.4     2
+4 casa4 300.0     3</code></pre>
+</div>
+</div>
 </section>
 <section id="r-project" class="slide level2 center">
 <h2>R project</h2>
-<p>-En nuestro quehacer de sociólogxs es crucial mantener el orden, claridad, transparencia y replicabilidad de nuestros análisis. Esto es fundamental para que otras personas puedan comprender y reproducir nuestros resultados.</p>
-<p>-Una de las mejores formas de garantizar el orden y transparencia del trabajo en R es utilizando “R project”. Estos son entornos en que se almacenan datos, códigos y procesos del trabajo realizado.</p>
-<p>-Para crear uno apretaremos File -&gt; New Project. Esto creará una carpeta que contenga todo el trabajo que vayamos haciendo. También funcionará como directorio, permitiéndonos cargar bases de datos externas desde esa carpeta.</p>
+<p>En nuestro quehacer de sociólogxs es crucial mantener el orden, claridad, transparencia y replicabilidad de nuestros análisis. Esto es fundamental para que otras personas puedan comprender y reproducir nuestros resultados.</p>
+<p>Una de las mejores formas de garantizar el orden y transparencia del trabajo en R es utilizando “R project”. Estos son entornos en que se almacenan datos, códigos y procesos del trabajo realizado.</p>
+<p>Para crear uno apretaremos File -&gt; New Project o clickeando el cubo con la R que dice Create a Project en la parte superior izquierda. Esto creará una carpeta que contenga todo el trabajo que vayamos haciendo. También funcionará como directorio, permitiéndonos cargar bases de datos externas desde esa carpeta.</p>
 </section>
 <section id="paquetes-y-bases-de-datos" class="slide level2 center">
 <h2>Paquetes y bases de datos</h2>
-<p>-Los paquetes (Packages) son funciones descargables que permiten realizar una diversidad de tareas en R, como, por ejemplo, análisis estadísticos complejos, creación de gráficos, manipulación de bases de datos y muchas otras funcionalidades.</p>
-<p>-Las bases de datos normalmente vienen en formato sav (SPSS), dta (STATA), xlsx (Excel) y csv (Excel con valores separados por coma). Para cada una utilizaremos los siguientes paquetes:</p>
+<p>Los paquetes (Packages) son funciones descargables que permiten realizar una diversidad de tareas en R, como, por ejemplo, análisis estadísticos complejos, creación de gráficos, manipulación de bases de datos y muchas otras funcionalidades.</p>
+<p>Las bases de datos normalmente vienen en formato sav (SPSS), dta (STATA), xlsx (Excel) y csv (Excel con valores separados por coma). Para cada una utilizaremos los siguientes paquetes:</p>
 <table class="caption-top">
 <colgroup>
-<col style="width: 21%">
-<col style="width: 35%">
-<col style="width: 21%">
-<col style="width: 21%">
+<col style="width: 24%">
+<col style="width: 26%">
+<col style="width: 24%">
+<col style="width: 24%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -611,7 +641,7 @@ Equipo Estadística 2
 <td>.xlsx</td>
 <td>Excel</td>
 <td>readxl</td>
-<td>read_xlsx(“base.xlsx)</td>
+<td>read_xlsx(“base.xlsx”)</td>
 </tr>
 <tr class="even">
 <td>.csv</td>
@@ -624,44 +654,71 @@ Equipo Estadística 2
 </section>
 <section id="cargar-paquetes-y-bbdd" class="slide level2 center">
 <h2>Cargar paquetes y BBDD</h2>
-<p>-La mayoría de los paquetes no vienen por defecto en R, entonces, debemos instalarlos. Para esto seguiremos el siguiente procedimiento:</p>
+<p>La mayoría de los paquetes no vienen por defecto en R, entonces, debemos instalarlos. Para esto seguiremos el siguiente procedimiento:</p>
 <p><strong>1. Instalar la librería deseada</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href=""></a><span class="fu">install.packages</span>(<span class="st">"haven"</span>)</span>
-<span id="cb18-2"><a href=""></a></span>
-<span id="cb18-3"><a href=""></a><span class="co">#Aquí siempre debe ir el paquete entre comillas.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href=""></a><span class="fu">install.packages</span>(<span class="st">"haven"</span>)</span>
+<span id="cb20-2"><a href=""></a></span>
+<span id="cb20-3"><a href=""></a><span class="co">#Aquí siempre debe ir el paquete entre comillas.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><strong>2. Llamar a la librería instalada</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href=""></a><span class="fu">library</span>(haven)</span>
-<span id="cb19-2"><a href=""></a></span>
-<span id="cb19-3"><a href=""></a><span class="co">#Aquí sin comillas</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href=""></a><span class="fu">library</span>(haven)</span>
+<span id="cb21-2"><a href=""></a></span>
+<span id="cb21-3"><a href=""></a><span class="co">#Aquí sin comillas</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><strong>3. Utilizar las funciones de la librería</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href=""></a>lapop <span class="ot">&lt;-</span> <span class="fu">read_sav</span>(<span class="st">"LAPOP 2023.sav"</span>)</span>
-<span id="cb20-2"><a href=""></a></span>
-<span id="cb20-3"><a href=""></a><span class="co">#Se asigna un nombre a la base de datos</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href=""></a>lapop <span class="ot">&lt;-</span> <span class="fu">read_sav</span>(<span class="st">"LAPOP 2023.sav"</span>)</span>
+<span id="cb22-2"><a href=""></a></span>
+<span id="cb22-3"><a href=""></a><span class="co">#Se asigna un nombre a la base de datos</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p><strong>Al cargar una base de datos, es crucial que esta se encuentre en el directorio en que estamos trabajando. En este caso utilizamos un Rproject, entonces, la base debe estar dentro de esa carpeta.</strong></p>
+</section>
+<section id="cargar-paquetes-y-bbdd-1" class="slide level2 center">
+<h2>Cargar paquetes y BBDD</h2>
+<p>Nota: Los paquetes/librerías solo se instalan <strong>install.packages()</strong> una vez por computador. Lo que se debe realizar en cada nueva sesión es llamar a la librería <strong>library()</strong></p>
 </section>
 <section id="manipulación-y-observación-de-bases-de-datos" class="slide level2 center">
 <h2>Manipulación y observación de bases de datos</h2>
-<p>-Antes de hacer cualquier análisis, es muy importante observar la base de datos y las variables que nos interesan. En este caso quiero analizar las variables edad (q2) y escala política izquierda-derecha del 1 al 10 (l1), ambas de la bases de datos Lapop.</p>
-<p>-Una buena práctica es separar en una nueva base las variables que queremos utilizar.</p>
+<p>Antes de hacer cualquier análisis, es muy importante observar la base de datos y las variables que nos interesan. En este ejemplo quiero analizar las variables edad (q2) y escala política izquierda-derecha del 1 al 10 (l1), ambas de la base de datos Lapop, que es una encuesta de opinión pública con preguntas sobre política.</p>
+<p>Una buena práctica es separar en una nueva base las variables que queremos utilizar y eso haremos a continuación.</p>
 </section>
 <section id="manipulación-y-observación-de-bases-de-datos-1" class="slide level2 center">
 <h2>Manipulación y observación de bases de datos</h2>
-<p>-Como vieron en Estadística 1, existe una libreria que facilita la manipulación de datos, esta es tidyverse. Este paquete nos permite filtrar, seleccionar, graficar, etc. En este caso queremos seleccionar las variables de interés q2 y l1, para esto necesitamos el comando select()</p>
+<p>Existen varias formas de seleccionar y separar variables de una base de datos, la más básica es la función que viene en R base.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href=""></a><span class="fu">install.packages</span>(<span class="st">"tidyverse"</span>) <span class="co">#Instalamos la libreria</span></span>
-<span id="cb21-2"><a href=""></a></span>
-<span id="cb21-3"><a href=""></a><span class="fu">library</span>(tidyverse) <span class="co">#Llamamos a la libreria</span></span>
-<span id="cb21-4"><a href=""></a></span>
-<span id="cb21-5"><a href=""></a>lapopselect<span class="ot">&lt;-</span>lapop <span class="sc">%&gt;%</span> <span class="fu">select</span>(q2, l1) <span class="co">#El %&gt;% es un pipeline, es decir, una tubería que une en orden distintas acciones dentro del código.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href=""></a>seleccionlapop <span class="ot">&lt;-</span> lapop[,<span class="fu">c</span>(<span class="st">"q2"</span>,<span class="st">"l1"</span>)]</span>
+<span id="cb23-2"><a href=""></a></span>
+<span id="cb23-3"><a href=""></a><span class="fu">head</span>(seleccionlapop)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 2
+  q2        l1            
+  &lt;dbl+lbl&gt; &lt;dbl+lbl&gt;     
+1 50        NA            
+2 50         1 [Izquierda]
+3 29        NA            
+4 61        10 [Derecha]  
+5 44        NA            
+6 19         5            </code></pre>
 </div>
-<p>-Ahora exploraré la nueva base con el comando head()</p>
+</div>
+<p>En este código estamos indicando que se le asigne a una base de datos nueva las columnas (variables) q2 (edad) y l1 (posición política), de nuestra base de datos inicial llamada Lapop.</p>
+</section>
+<section id="manipulación-y-observación-de-bases-de-datos-2" class="slide level2 center">
+<h2>Manipulación y observación de bases de datos</h2>
+<p><strong>Esta es una forma alternativa, algo más compleja, pero es importante conocerla.</strong></p>
+<p>Como vieron en Estadística 1, también existe una librería que facilita la manipulación de datos, esta es tidyverse. Este paquete contiene muchas otras liberarías y nos permite filtrar, seleccionar, graficar, etc. En este caso podemos hacer la selección de variables de interés q2 y l1 con el comando select().</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href=""></a><span class="fu">head</span>(lapopselect)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href=""></a><span class="fu">install.packages</span>(<span class="st">"tidyverse"</span>) <span class="co">#Instalamos la libreria</span></span>
+<span id="cb25-2"><a href=""></a></span>
+<span id="cb25-3"><a href=""></a><span class="fu">library</span>(tidyverse) <span class="co">#Llamamos a la libreria</span></span>
+<span id="cb25-4"><a href=""></a></span>
+<span id="cb25-5"><a href=""></a>lapopselect<span class="ot">&lt;-</span>lapop <span class="sc">%&gt;%</span> <span class="fu">select</span>(q2, l1) <span class="co">#El %&gt;% es un pipeline, es decir, una tubería que une en orden distintas acciones dentro del código.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Ahora exploraré la nueva base con el comando head()</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href=""></a><span class="fu">head</span>(lapopselect)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 2
   q2        l1            
@@ -679,10 +736,43 @@ Equipo Estadística 2
 <h2>Ejercicio 2</h2>
 <p>-Crear un proyecto de R nuevo.</p>
 <p>-Abrir un script nuevo.</p>
-<p>-Descargar y abrir la base de datos IDH_2021_AL.</p>
-<p>-Seleccionar las variables “índice de desarrollo humano” (IDH) y “esperanza de vida” (EVIDA).</p>
+<p>-Descargar y abrir la base de datos del índice de Desarrollo Humano 2021 de Latinoamérica desde Canvas, llamada: IDH_2021_AL.</p>
+<p>-Seleccionar y separar en una nueva base las variables “país” (PAIS), “índice de desarrollo humano” (IDH) y “esperanza de vida” (EVIDA).</p>
 <p>-Luego observar la nueva base de datos.</p>
 <p><strong>Al descargar la base, es importante siempre verificar el formato en el que viene, esto para saber qué paquete es necesario utilizar.</strong></p>
+</section>
+<section id="ejercicio-2-resuelto" class="slide level2 center">
+<h2>Ejercicio 2 Resuelto</h2>
+<p><strong>Solo se presentará el resultado del código y no el proceso de creación de Rproject</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href=""></a><span class="fu">rm</span>(<span class="at">list =</span> <span class="fu">ls</span>()) <span class="co">#Este código limpia los elementos del ambiente. No es obligación utilizarlo, pero, es una buena práctica para mantener el orden.</span></span>
+<span id="cb28-2"><a href=""></a></span>
+<span id="cb28-3"><a href=""></a><span class="fu">install.packages</span>(<span class="st">"haven"</span>) <span class="co">#La base de datos es .sav, entonces, si es necesario instalamos haven.</span></span>
+<span id="cb28-4"><a href=""></a></span>
+<span id="cb28-5"><a href=""></a><span class="fu">library</span>(haven)  <span class="co">#Llamamos a la librería para utilizarla.</span></span>
+<span id="cb28-6"><a href=""></a></span>
+<span id="cb28-7"><a href=""></a>idh <span class="ot">&lt;-</span> <span class="fu">read_sav</span> (<span class="st">"IDH_2021_AL.sav"</span>) <span class="co">#Abrimos la base de datos</span></span>
+<span id="cb28-8"><a href=""></a></span>
+<span id="cb28-9"><a href=""></a>idhselec <span class="ot">&lt;-</span> idh[,<span class="fu">c</span>(<span class="st">"PAIS"</span>,<span class="st">"IDH"</span>,<span class="st">"EVIDA"</span>)] <span class="co">#Seleccionamos las tres variables</span></span>
+<span id="cb28-10"><a href=""></a></span>
+<span id="cb28-11"><a href=""></a><span class="fu">head</span>(idhselec) <span class="co">#Observamos la parte superior de los datos</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 3
+  PAIS             IDH EVIDA
+  &lt;chr&gt;          &lt;dbl&gt; &lt;dbl&gt;
+1 Chile          0.855  78.9
+2 Argentina      0.842  75.4
+3 Costa Rica     0.809  77  
+4 Uruguay        0.809  75.4
+5 Panama         0.805  76.2
+6 Dominican Rep. 0.767  72.6</code></pre>
+</div>
+</div>
+</section>
+<section id="fin" class="slide level2 center">
+<h2>FIN</h2>
+<p><strong>Cualquier cosa no duden en hablarnos</strong></p>
+<p><strong>Les deseo un increíble inicio del año académico :)</strong></p>
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
